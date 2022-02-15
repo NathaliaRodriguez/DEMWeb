@@ -1,0 +1,44 @@
+*{
+    border: 20px;
+}
+.PageN{
+    color: rgb(13, 36, 98);
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0px
+
+    
+}
+
+.Menu{
+    text-align: center; 
+    background-color: #b1aad8; 
+    padding: 8px;
+    font-size: 20px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: black;
+  }
+
+a:hover{
+    color: rgb(235, 255, 249);
+}
+
+.titulos{
+    color: rgb(87, 121, 233);
+    text-align: center;
+    font-size: 50px;
+    padding: 2px; 
+    margin-top: 0;
+}
+.ListasL{
+    position: absolute;
+    left: 15; right: 75;
+}
+.ListasR{
+    position: absolute;
+    left: 75; right: 15;
+}
