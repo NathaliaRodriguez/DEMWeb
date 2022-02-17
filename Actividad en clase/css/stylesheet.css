@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap');
+}
+
+h2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    text-align: center;
+
+}
+
+p{
+    font-size: 16px;
+    text-align: justify;
+}
+
+#color{
+    color:darkgreen;
+    font-size: 30px;
+}
+
+#bg-color{
+    background-color:darkblue;
+    color: yellow;
+    font-size: 30px;
+}
+
+.bg-img{
+    background-image: url(/css/space.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.opacity{
+    display: block;
+    opacity: 0.5;
+    top: 80%;
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
