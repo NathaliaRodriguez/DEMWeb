@@ -1,0 +1,22 @@
+.container{
+    background-color: black;
+    padding: 4px;
+    display: flex;
+    flex-direction: column; 
+    height: 100vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin-top: 10px;
+    font-size: 3rem;
+    order: 2;
+    flex-grow: 1;
+}
+#primero{
+    order: 1;
+    flex-grow: 4;
+}
