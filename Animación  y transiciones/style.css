@@ -1,0 +1,18 @@
+body{
+    background-color: red;
+}
+.container{
+   width: 90%;
+   margin: 40px auto;
+   padding: 20px;
+   border: 2px solid #fff;
+}
+.elemento{
+background-color: #fff;
+width: 150px;
+height: 150px;
+transition-property: trasform;
+transition-duration: 2s;
+transition-timing-function: ease;
+transition-delay: 300ms;
+}
