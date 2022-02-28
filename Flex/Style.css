@@ -1,5 +1,6 @@
 .container{
-    background-color: black;
+    background-image: url(wallpaper.png);
+    background-size: cover;
     padding: 4px;
     display: flex;
     flex-direction: column; 
