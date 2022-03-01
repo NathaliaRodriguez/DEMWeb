@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body{
+    background: radial-gradient(circle, rgb(138, 255, 255) 0%, rgb(118, 255, 182) 50%,  rgb(255, 228, 196)100%);
+}
+
+header {
+    background: radial-gradient(circle, rgba(227,184,254,0.7987570028011204) 0%, rgba(255,180,228,0.9640231092436975) 35%, rgba(250,213,191,0.96) 71%, rgba(255,238,173,1) 100%);
+    width: 100%;
+    /* position: fixed; */
+    /* z-index: 100; */
+}
+  
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+  
+nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+    float: left;
+    font-size: 20px;
+  }
+  
+nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: rgba(27, 27, 27);
+    text-decoration: none;
+  }
+  
+nav ul li:hover {
+    background: #a1e8fa;
+}
+.contenido {
+    padding-top: 8px;
+}
+.wrapper {
+width: 80%;
+margin: auto;
+overflow:hidden;
+}
+
+.Hc{
+    background-image: url(/Parcial_1/Imagenes/Coachella-1024x683.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+#titulo{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: left;
+    padding: 50px;
+}
+
+.Desc{
+    background-color: rgba(227,184,254, 0.555);
+}
+.Prog{
+    background-color: rgba(255,180,228, 0.555);
+ }
+.ListS{
+    background-color: rgba(118, 255, 182, 0);
+ }
+.Form{
+    background-color: rgba(138, 255, 255, 0.555);
+}
+.Centrar{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.Section{
+    display: flex;
+    flex-direction: row;
+}
+.one {
+    flex: 1 1 auto;
+  }
+
+.two {
+    flex: 1 1 auto;
+}
+.three {
+    flex: 1 1 auto;
+}
+.comoLL{
+        height: auto;
+        width: auto;
+}
+#map {
+    height: 30%;
+    width: 20%;
+}
+p{
+    font-size: 26px;
+    padding: 30px;
+}
+h1{
+    color: rgb(83, 83, 83);
+    text-align: center;
+}
