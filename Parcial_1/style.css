@@ -57,32 +57,57 @@ overflow:hidden;
     background-image: url(/Parcial_1/Imagenes/Coachella-1024x683.jpeg);
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 500px;
 }
 
 #titulo{
     color: aliceblue;
     font-size: 50px;
-    text-align: left;
-    padding: 50px;
+    padding-top: 50px;
+    padding-left: 90px;
+
+}
+#p1{
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 90px;
+    padding-bottom: 0px;
 }
 
 .Desc{
     background-color: rgba(227,184,254, 0.555);
+    padding: 20px;
+    border-radius: 60px;
 }
 .Prog{
     background-color: rgba(255,180,228, 0.555);
+    padding: 20px;
+    border-radius: 60px;
  }
 .ListS{
-    background-color: rgba(118, 255, 182, 0);
+    background-color: rgba(218, 255, 118, 0.555);
+    padding: 20px;
+    border-radius: 60px;
  }
 .Form{
-    background-color: rgba(138, 255, 255, 0.555);
+    background-color: rgba(138, 198, 255, 0.555);
+    padding: 20px;
+    border-radius: 60px;
+}
+.Price{
+    background-color: rgba(250,213,191, 0.555);
+    padding: 20px;
+    border-radius: 60px;
+}
+.Ptro{
+    background-color: rgba(255, 246, 241, 0.76);
+    padding: 20px;
+    border-radius: 60px;
 }
 .Centrar{
     text-align: center;
     display: block;
-    margin: 0 auto;
+    margin: 20px;
 }
 
 .Section{
@@ -109,7 +134,7 @@ overflow:hidden;
 }
 p{
     font-size: 26px;
-    padding: 30px;
+    padding: 20px;
 }
 h1{
     color: rgb(83, 83, 83);
