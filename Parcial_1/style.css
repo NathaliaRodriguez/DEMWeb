@@ -54,7 +54,7 @@ overflow:hidden;
 }
 
 .Hc{
-    background-image: url(/Parcial_1/Imagenes/Coachella-1024x683.jpeg);
+    background-image: url(/Parcial_1/Imagenes/Hero\ Content.png);
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -63,15 +63,18 @@ overflow:hidden;
 #titulo{
     color: aliceblue;
     font-size: 50px;
-    padding-top: 50px;
+    padding-top: 140px;
     padding-left: 90px;
-
+    font-weight: 800;
+    text-shadow: 0.07em 0.05em 0.1em rgba(201, 201, 201, 0.486);
 }
 #p1{
     color: aliceblue;
     font-size: 30px;
     padding-left: 90px;
     padding-bottom: 0px;
+    text-shadow: 0.07em 0.05em 0.1em rgba(201, 201, 201, 0.486);
+    
 }
 
 .Desc{
@@ -129,14 +132,18 @@ overflow:hidden;
         width: auto;
 }
 #map {
-    height: 30%;
-    width: 20%;
+    height: 80%;
+    width: 40%;
 }
 p{
-    font-size: 26px;
+    font-size: 20px;
     padding: 20px;
 }
-h1{
-    color: rgb(83, 83, 83);
+.subt{
+    /* color: #afebff; */
+    color: rgb(93, 6, 117);
     text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    text-shadow: 0.07em 0.05em 0.1em rgba(51, 51, 51, 0.603);
 }
