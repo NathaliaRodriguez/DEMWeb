@@ -10,18 +10,19 @@
 <body>
     <header> 
             <nav class="contenido wrapper">
+                <img id="logo" src="Imagenes/Logos.png" alt="">
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#descr">Descripción</a></li>
-                    <li><a href="prog">Programación</a></li>
+                    <li><a href="#prog">Programación</a></li>
                     <li><a href="#spotify">Lista de Spotify</a></li>
                     <li><a href="#prec">Precios y ventas</a></li>
-                    <li><a href="#from">Reserva boletas</a></li>
+                    <li><a href="#fromu">Reserva boletas</a></li>
                 </ul>
             </nav>
     </header>
     <main>
-        <section>
+        <section id="Hc">
             <div class="Hc">
                 <p id="titulo"> Coachella Valley Cali</p>
                 <p id="p1">Del 16 al 19 de Junio del 2022</p>
@@ -31,9 +32,10 @@
         </section>
         <section id="descr" class="Desc Centrar">
             <div>
-                <p>
-                    El gran festival de música Coachella Valley llega a cali
+                <p class="subt">
+                    El gran festival de música Coachella Valley llega a Cali este verano de 2022
                 </p>
+                <iframe width="1120" height="630" src="https://www.youtube.com/embed/1UKtZXMHxvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="Section">
                 <div class="one">
@@ -107,13 +109,13 @@
         </section>
         <section id="formu" class="Form Centrar">
             <p class="subt">Reserva tus boletos</p>
-            <form action="#" target="" method="get" name="formDatosPersonales">
+            <form action="#Hc" target="" method="get" name="formDatosPersonales">
 
                 <label for="nombre">Nombre</label>
                 <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
             
                 <label for="apellidos">Apellidos</label>
-                <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido"/>
+                <input type="text" name="apellidos" id="apellidos" placeholder="Escribe tu apellido"/>
             
                 <label for="email">Email</label>
                 <input type="email" name="email" id="email" placeholder="email" required /> <br>
@@ -130,9 +132,9 @@
                     <option>04</option>
                   </select>
             
-                <label for="asunto">Asunto</label>
-                <select id="card-expiration-month" name="asunto" id="asunto" placeholder="titular de la consulta">
-                    <option>titular de la consulta</option>
+                <label for="asunto">Seleccione la cantidad de boletos</label>
+                <select id="boletas" name="bolrtas" id="boletas" placeholder="">
+                    <option>Cantidad de boletos</option>
                     <option>01</option>
                     <option>02</option>
                     <option>03</option>
@@ -153,7 +155,7 @@
         </section>
     </main>
     <footer>
-        Coachella Valley Cali ♥
+        © 2022 RASEC® Ltd. Todos los derechos reservados.Coachella Valley Cali ♥
     </footer>
 </body>
 </html>

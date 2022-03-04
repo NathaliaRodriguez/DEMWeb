@@ -48,8 +48,8 @@ nav ul li:hover {
     padding-top: 8px;
 }
 .wrapper {
-width: 80%;
-margin: auto;
+/* width: 80%;
+margin: auto; */
 overflow:hidden;
 }
 
@@ -193,4 +193,12 @@ form input[type="submit"]{
 
 form input[type="submit"]:hover{
 	cursor:pointer;
+}
+footer{
+    text-align: center;
+}
+#logo{
+    width: 10%;
+    height: 10%;
+    margin: 10px;
 }
